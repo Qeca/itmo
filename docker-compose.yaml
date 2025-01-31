@@ -1,0 +1,9 @@
+version: '3.10'
+
+services:
+  myapp:
+    build: .
+    container_name: myapp_container
+    ports:
+      - "8081:8081"
+    restart: always
